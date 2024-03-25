@@ -1,6 +1,4 @@
-# Stream
 
-<!--
 Stream műveletek:
 - countries.stream() Stream létehozás a countires objektumra
 - map(Country::name) name szerint fogja csinálni
@@ -55,4 +53,4 @@ Egyéb műveletek:
 - collect(Collectors.joining(",")) vessző alapján egymásmellé írja a stringeket
 - entrySet() az összes kulcs-érték párt visszaadja
 - collect(Collectors.groupingBy(word -> word.charAt(0))) visszaadja a csoportokat az első betű alapján
--->
+
